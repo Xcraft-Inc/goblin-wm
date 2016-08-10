@@ -1,0 +1,16 @@
+{
+  "win.create": {
+    "desc": "Open a new window",
+    "options": {
+      "params": {}
+    }
+  },
+  "win.delete": {
+    "desc": "start",
+    "options": {
+      "params": {
+        "required": "wid"
+      }
+    }
+  }
+}
