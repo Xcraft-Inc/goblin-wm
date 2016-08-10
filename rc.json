@@ -6,11 +6,17 @@
     }
   },
   "win.delete": {
-    "desc": "start",
+    "desc": "Delete window",
     "options": {
       "params": {
         "required": "wid"
       }
+    }
+  },
+  "win.list": {
+    "desc": "List managed windows",
+    "options": {
+      "params": {}
     }
   }
 }
