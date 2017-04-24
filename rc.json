@@ -1,11 +1,13 @@
 {
   "win.create": {
+    "parallel": true,
     "desc": "Open a new window",
     "options": {
       "params": {}
     }
   },
   "win.delete": {
+    "parallel": true,
     "desc": "Delete window",
     "options": {
       "params": {
@@ -14,6 +16,7 @@
     }
   },
   "win.list": {
+    "parallel": true,
     "desc": "List managed windows",
     "options": {
       "params": {}
