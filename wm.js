@@ -1,6 +1,6 @@
 'use strict';
 
-const path    = require ('path');
+const path = require ('path');
 const service = require ('./lib/service.js');
 
 /**
@@ -12,6 +12,6 @@ exports.xcraftCommands = function () {
   const xUtils = require ('xcraft-core-utils');
   return {
     handlers: service,
-    rc: xUtils.json.fromFile (path.join (__dirname, './rc.json'))
+    rc: xUtils.json.fromFile (path.join (__dirname, './rc.json')),
   };
 };
