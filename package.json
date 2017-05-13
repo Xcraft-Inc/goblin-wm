@@ -8,6 +8,11 @@
   },
   "author": "",
   "license": "MIT",
+  "config": {
+    "xcraft": {
+      "commands": true
+    }
+  },
   "dependencies": {
     "xcraft-core-goblin": "^2.0.0"
   },
