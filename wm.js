@@ -13,7 +13,10 @@ exports.xcraftCommands = function () {
         parallel: true,
         desc: 'Open a new window',
         options: {
-          params: {},
+          params: {
+            required: 'wid',
+            optional: 'feeds...',
+          },
         },
       },
       'win.delete': {
