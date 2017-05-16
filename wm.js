@@ -16,6 +16,16 @@ exports.xcraftCommands = function () {
           params: {},
         },
       },
+      'win.nav': {
+        parallel: true,
+        desc: 'Navigate to a route',
+        options: {
+          params: {
+            required: 'wid',
+            optional: 'route',
+          },
+        },
+      },
       'win.create': {
         parallel: true,
         desc: 'Open a new window',
