@@ -9,6 +9,13 @@ exports.xcraftCommands = function () {
   return {
     handlers: require ('./lib/service.js'),
     rc: {
+      init: {
+        parallel: true,
+        desc: 'Init window manager',
+        options: {
+          params: {},
+        },
+      },
       'win.create': {
         parallel: true,
         desc: 'Open a new window',
