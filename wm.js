@@ -36,6 +36,16 @@ exports.xcraftCommands = function () {
           },
         },
       },
+      'win.feed.sub': {
+        parallel: true,
+        desc: 'Open a new window',
+        options: {
+          params: {
+            required: 'wid',
+            optional: 'feeds...',
+          },
+        },
+      },
       'win.delete': {
         parallel: true,
         desc: 'Delete window',
