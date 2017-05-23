@@ -31,7 +31,6 @@ exports.xcraftCommands = function () {
         desc: 'Open a new window',
         options: {
           params: {
-            required: 'wid',
             optional: 'feeds...',
           },
         },
