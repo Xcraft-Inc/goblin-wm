@@ -11,12 +11,17 @@ module.exports = {
   },
   env: {
     browser: true,
+    mocha: true,
     node: true,
+    es6: true,
   },
-  extends: ['eslint:recommended'],
+  plugins: ['react'],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   rules: {
     // Other rules
     'no-console': 'off',
+    'valid-jsdoc': ['error', {requireReturn: false}],
+    eqeqeq: 'error',
     // The following rules can be used in some cases. See the README for more
     // information. (These are marked with `0` instead of `"off"` so that a
     // script can distinguish them.)
