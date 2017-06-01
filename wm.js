@@ -11,14 +11,14 @@ exports.xcraftCommands = function () {
     rc: {
       init: {
         parallel: true,
-        desc: 'Init window manager',
+        desc: 'init window manager',
         options: {
           params: {},
         },
       },
       'win.nav': {
         parallel: true,
-        desc: 'Navigate to a route',
+        desc: 'navigate to a route',
         options: {
           params: {
             required: 'wid',
@@ -28,7 +28,7 @@ exports.xcraftCommands = function () {
       },
       'win.create': {
         parallel: true,
-        desc: 'Open a new window',
+        desc: 'open a new window',
         options: {
           params: {
             optional: 'feeds...',
@@ -37,7 +37,7 @@ exports.xcraftCommands = function () {
       },
       'win.feed.sub': {
         parallel: true,
-        desc: 'Open a new window',
+        desc: 'subscribe to a feed',
         options: {
           params: {
             required: 'wid',
@@ -47,7 +47,7 @@ exports.xcraftCommands = function () {
       },
       'win.delete': {
         parallel: true,
-        desc: 'Delete window',
+        desc: 'delete a window',
         options: {
           params: {
             required: 'wid',
@@ -56,7 +56,7 @@ exports.xcraftCommands = function () {
       },
       'win.list': {
         parallel: true,
-        desc: 'List managed windows',
+        desc: 'list managed windows',
         options: {
           params: {},
         },
