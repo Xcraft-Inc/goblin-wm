@@ -7,7 +7,8 @@
  */
 exports.xcraftCommands = function () {
   return {
-    handlers: require ('./lib/service.js'),
+    handlers: require ('./lib/service.js').handlers,
+    context: require ('./lib/service.js').context,
     rc: {
       init: {
         parallel: true,
