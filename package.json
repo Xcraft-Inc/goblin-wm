@@ -2,7 +2,6 @@
   "name": "goblin-wm",
   "version": "0.0.1",
   "description": "Electron windows manager",
-  "main": "wm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
