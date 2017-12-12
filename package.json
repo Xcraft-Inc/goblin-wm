@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "immutable": "4.0.0-rc.2",
-    "immutablediff": "Xcraft-Inc/immutable-js-diff",
+    "immutablediff": "github:Xcraft-Inc/immutable-js-diff",
     "transit-immutable-js": "^0.7.0",
     "transit-js": "^0.8.846",
     "uuid": "^3.0.1",
