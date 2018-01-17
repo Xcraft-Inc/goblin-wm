@@ -13,6 +13,7 @@
     }
   },
   "dependencies": {
+    "electron-default-menu": "^1.0.1",
     "immutable": "4.0.0-rc.4",
     "immutablediff": "github:Xcraft-Inc/immutable-js-diff",
     "transit-immutable-js": "^0.7.0",
