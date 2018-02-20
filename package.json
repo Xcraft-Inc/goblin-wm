@@ -25,6 +25,6 @@
     "electron": "^1.6.6"
   },
   "devDependencies": {
-    "xcraft-dev-rules": "^0.1.8"
+    "xcraft-dev-rules": "^0.2.0"
   }
 }
