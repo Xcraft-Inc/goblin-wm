@@ -19,6 +19,7 @@
     "transit-immutable-js": "^0.7.0",
     "transit-js": "^0.8.846",
     "uuid": "^3.0.1",
+    "ws": "^6.0.0",
     "xcraft-core-goblin": "^2.0.0"
   },
   "peerDependencies": {
