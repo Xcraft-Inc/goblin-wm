@@ -23,7 +23,7 @@
     "xcraft-core-goblin": "^2.0.0"
   },
   "peerDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^4.0.0"
   },
   "devDependencies": {
     "xcraft-dev-rules": "^0.3.0",
