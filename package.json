@@ -26,7 +26,7 @@
     "electron": "^4.0.0"
   },
   "devDependencies": {
-    "xcraft-dev-rules": "^0.3.0",
-    "prettier": "1.15.1"
+    "xcraft-dev-rules": "^0.4.0",
+    "prettier": "1.16.4"
   }
 }
