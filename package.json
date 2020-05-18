@@ -13,7 +13,6 @@
     }
   },
   "dependencies": {
-    "electron": "^8.0.0",
     "electron-default-menu": "^1.0.1",
     "immutable": "4.0.0-rc.4",
     "immutablediff": "github:Xcraft-Inc/immutable-js-diff",
@@ -22,6 +21,9 @@
     "uuid": "^3.0.1",
     "ws": "^7.2.1",
     "xcraft-core-goblin": "^3.0.0"
+  },
+  "peerDependencies": {
+    "electron": "^8.0.0"
   },
   "devDependencies": {
     "prettier": "2.0.4",
