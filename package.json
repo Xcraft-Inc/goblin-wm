@@ -24,7 +24,7 @@
     "xcraft-core-goblin": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "^8.3.0",
+    "electron": "8.3.1",
     "prettier": "2.0.4",
     "xcraft-dev-prettier": "^2.0.0",
     "xcraft-dev-rules": "^2.0.0"
