@@ -16,7 +16,7 @@
     "electron-default-menu": "^1.0.1",
     "electron-localshortcut": "^3.2.1",
     "gigawatts": "^4.0.5",
-    "goblin-laboratory": "^0.0.1",
+    "goblin-laboratory": "^1.0.0",
     "immutable": "4.0.0-rc.4",
     "immutablediff": "github:Xcraft-Inc/immutable-js-diff",
     "transit-immutable-js": "^0.7.0",
