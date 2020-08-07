@@ -15,13 +15,17 @@
   "dependencies": {
     "electron-default-menu": "^1.0.1",
     "electron-localshortcut": "^3.2.1",
+    "gigawatts": "^4.0.5",
+    "goblin-laboratory": "^0.0.1",
     "immutable": "4.0.0-rc.4",
     "immutablediff": "github:Xcraft-Inc/immutable-js-diff",
     "transit-immutable-js": "^0.7.0",
     "transit-js": "^0.8.846",
     "uuid": "^3.0.1",
     "ws": "^7.2.1",
-    "xcraft-core-goblin": "^4.0.1"
+    "xcraft-core-busclient": "4.0.1",
+    "xcraft-core-goblin": "^4.0.1",
+    "xcraft-core-transport": "^3.0.1"
   },
   "devDependencies": {
     "electron": "8.4.1",
