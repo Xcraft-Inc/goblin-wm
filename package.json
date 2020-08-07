@@ -21,7 +21,7 @@
     "transit-js": "^0.8.846",
     "uuid": "^3.0.1",
     "ws": "^7.2.1",
-    "xcraft-core-goblin": "^3.0.0"
+    "xcraft-core-goblin": "^4.0.1"
   },
   "devDependencies": {
     "electron": "8.4.1",
