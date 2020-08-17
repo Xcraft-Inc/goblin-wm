@@ -19,7 +19,7 @@
     "goblin-laboratory": "^1.0.0",
     "lodash": "^4.17.19",
     "ws": "^7.2.1",
-    "xcraft-core-busclient": "4.0.1",
+    "xcraft-core-busclient": "^4.0.1",
     "xcraft-core-goblin": "^4.0.1",
     "xcraft-core-transport": "^3.0.1"
   },
