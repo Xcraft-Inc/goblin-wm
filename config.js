@@ -10,4 +10,10 @@ module.exports = [
     message: 'Options for electron BrowserWindow',
     default: null,
   },
+  {
+    type: 'input',
+    name: 'vibrancyOptions',
+    message: 'Options for electron BrowserWindow',
+    default: null,
+  },
 ];

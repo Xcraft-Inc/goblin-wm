@@ -29,5 +29,8 @@
     "xcraft-dev-prettier": "^2.0.0",
     "xcraft-dev-rules": "^2.0.0"
   },
+  "optionalDependencies": {
+    "electron-acrylic-window": "^0.5.5"
+  },
   "prettier": "xcraft-dev-prettier"
 }
