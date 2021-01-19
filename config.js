@@ -16,4 +16,10 @@ module.exports = [
     message: 'Options for electron BrowserWindow',
     default: null,
   },
+  {
+    type: 'input',
+    name: 'titlebar',
+    message: 'Titlebar widget name',
+    default: null,
+  },
 ];
