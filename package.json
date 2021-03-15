@@ -7,6 +7,7 @@
   },
   "author": "",
   "license": "MIT",
+  "main": "./lib/wm.js",
   "config": {
     "xcraft": {
       "commands": true

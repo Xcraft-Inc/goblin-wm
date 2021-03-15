@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @keyframes wave {
+        0% {
+          transform: scale(2, 2) translateX(25%) rotate(0deg);
+        }
+        20% {
+          transform: scale(3, 2) translateX(13%) rotate(-4deg);
+        }
+        30% {
+          transform: scale(2.5, 2) translateX(6%) rotate(1deg);
+        }
+        50% {
+          transform: scale(2, 2) translateX(-3%) rotate(-5deg);
+        }
+        60% {
+          transform: scale(3, 2) translateX(-16%) rotate(-7deg);
+        }
+        70% {
+          transform: scale(3.5, 2) translateX(-16%) rotate(5deg);
+        }
+        85% {
+          transform: scale(2.5, 2) translateX(-22%) rotate(-3deg);
+        }
+        100% {
+          transform: scale(2, 2) translateX(-25%) rotate(0deg);
+        }
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        display: table;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        font: message-box;
+        pointer-events: none;
+        overflow: hidden;
+        background: linear-gradient(175deg, #052036be, #05203600 70%);
+        box-shadow: inset 0px 0px 0px 2px #00000049;
+      }
+
+      #waves {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 30px);
+        fill: rgba(0, 0, 0, 0.1);
+        will-change: transform;
+        transform-origin: top;
+        animation: 30s ease-in-out infinite normal;
+        animation-direction: alternate;
+        animation-name: wave;
+      }
+
+      #message {
+        padding: 20px;
+        color: #d6e0ea;
+        text-align: center;
+        font-weight: 500;
+        display: table-cell;
+        vertical-align: middle;
+        line-height: 1.5;
+      }
+
+      #message::first-letter {
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="waves">
+      <svg viewBox="0 -10 297 210">
+        <path
+          d="m0 210v-210c11.967 4.6933 17.656-2.6807 26.401-3.4144 17.858-1.4982 15.87 6.3329 26.016 6.8302 5.5989 0.27446 12.175-6.0911 17.735-5.6633 8.4981 0.65378 13.814 6.8138 22.378 6.4341 12.034-0.53358 19.69-9.5641 31.682-8.8311 9.8009 0.59908 8.3159 10.576 17.852 11.859 7.1212 0.95798 9.5798-6.566 16.847-7.191 11.94-1.027 24.46 4.5648 35.956 2.6493 12.783-2.1297 9.6811-8.5442 23.133-8.2003 10.218 0.26123 6.5631 7.7036 16.344 9.2095 12.961 1.9956 24.451-6.793 37.968-7.3172 5.8495-0.22685 8.0543 6.6039 13.814 7.1631 3.9539 0.38389 5.0908-4.6654 10.874-3.5279v210z"
+        />
+      </svg>
+    </div>
+    <div id="message">
+      loading...
+    </div>
+  </body>
+</html>
