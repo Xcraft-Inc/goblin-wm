@@ -22,4 +22,10 @@ module.exports = [
     message: 'Titlebar widget name',
     default: null,
   },
+  {
+    type: 'input',
+    name: 'splashDelay',
+    message: 'delay to apply after first window appear',
+    default: 1000,
+  },
 ];
