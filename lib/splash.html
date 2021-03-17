@@ -82,7 +82,32 @@
       </svg>
     </div>
     <div id="message">
-      loading...
     </div>
+    <script>
+    require('electron').ipcRenderer.on('progress', (event, data) => {
+      const {step,locale} = data;
+      switch(step){
+        case 'waiting':
+        document.getElementById('message').innerHTML = 'Le serveur cherche une table de libre';
+          break;
+        case 'boot':
+        document.getElementById('message').innerHTML = 'On allume la machine à café';
+          break;
+        case 'webpack':
+        document.getElementById('message').innerHTML = 'Emballage du chocolat par la marmotte';
+        break;
+        case 'start':
+        document.getElementById('message').innerHTML = `On vois le bout du tunnel`;
+        break;
+        case 'restore-session':
+        document.getElementById('message').innerHTML = 'On ressort de vieux dossiers';
+        break;
+        case 'ready':
+        document.getElementById('message').innerHTML = 'Le cake sort du four';
+        break;
+      }
+    })
+    </script>
+   
   </body>
 </html>
