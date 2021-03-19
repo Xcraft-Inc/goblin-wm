@@ -1,5 +1,3 @@
-//pre-load window-manager
-require('./lib/wm.js');
 /**
  * Retrieve the list of available commands.
  *
