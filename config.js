@@ -23,6 +23,12 @@ module.exports = [
     default: null,
   },
   {
+    type: 'confirm',
+    name: 'disableSplash',
+    message: 'disable splash screen',
+    default: false,
+  },
+  {
     type: 'input',
     name: 'splashDelay',
     message: 'delay to apply after first window appear',
