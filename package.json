@@ -16,12 +16,12 @@
   "dependencies": {
     "electron-localshortcut": "^3.2.1",
     "gigawatts": "^4.0.5",
-    "goblin-laboratory": "^1.0.0",
+    "goblin-laboratory": "^2.0.0",
     "lodash": "^4.17.19",
     "ws": "^7.2.1",
-    "xcraft-core-busclient": "^4.0.1",
-    "xcraft-core-goblin": "^4.0.1",
-    "xcraft-core-transport": "^3.0.1"
+    "xcraft-core-busclient": "^5.0.0",
+    "xcraft-core-goblin": "^5.0.0",
+    "xcraft-core-transport": "^4.0.0"
   },
   "devDependencies": {
     "prettier": "2.0.4",
