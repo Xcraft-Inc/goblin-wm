@@ -12,6 +12,12 @@ module.exports = [
   },
   {
     type: 'input',
+    name: 'splashWindowOptions',
+    message: 'Options for electron BrowserWindow in splash screen context',
+    default: null,
+  },
+  {
+    type: 'input',
     name: 'vibrancyOptions',
     message: 'Options for electron BrowserWindow',
     default: null,
