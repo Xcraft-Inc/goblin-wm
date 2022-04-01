@@ -40,4 +40,10 @@ module.exports = [
     message: 'delay to apply after first window appear',
     default: 1000,
   },
+  {
+    type: 'bool',
+    name: 'closable',
+    message: 'prevent closing',
+    default: true,
+  },
 ];
