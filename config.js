@@ -41,7 +41,7 @@ module.exports = [
     default: 1000,
   },
   {
-    type: 'bool',
+    type: 'confirm',
     name: 'closable',
     message: 'prevent closing',
     default: true,
