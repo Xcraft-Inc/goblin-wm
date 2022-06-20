@@ -21,6 +21,7 @@
     "ws": "^7.2.1",
     "xcraft-core-busclient": "^5.0.0",
     "xcraft-core-goblin": "^5.0.0",
+    "xcraft-core-host": "^3.6.0",
     "xcraft-core-transport": "^4.0.0"
   },
   "devDependencies": {
