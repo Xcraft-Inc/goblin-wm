@@ -1,0 +1,9 @@
+[
+  {
+    "Module": "goblin-wm",
+    "Version": "v2.5.2",
+    "Hash": "8d71e7d",
+    "Dev": "master",
+    "Prod": "2.5"
+  }
+]
