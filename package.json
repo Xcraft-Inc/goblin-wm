@@ -16,7 +16,7 @@
   "dependencies": {
     "electron-localshortcut": "^3.2.1",
     "gigawatts": "^4.0.5",
-    "goblin-laboratory": "^3.0.0",
+    "goblin-laboratory": "^4.0.0",
     "lodash": "^4.17.19",
     "ws": "^7.2.1",
     "xcraft-core-busclient": "^5.1.2",
