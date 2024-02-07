@@ -30,7 +30,6 @@
     "xcraft-dev-rules": "^4.1.0"
   },
   "optionalDependencies": {
-    "sharp": "^0.30.4",
     "windows-swca": "^2.0.2"
   },
   "prettier": "xcraft-dev-prettier"
