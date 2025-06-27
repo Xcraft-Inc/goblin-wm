@@ -1,4 +1,4 @@
-# 📘 Documentation du module goblin-wm
+# 📘 goblin-wm
 
 ## Aperçu
 
